@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LEAD Faculty Appraisal — Wave 0 demo
 
-## Getting Started
+Clickable demo of the new appraisal platform. No sign-in: it opens on the Faculty dashboard; switch roles from the top-right menu.
 
-First, run the development server:
+## Run it
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+npm install        # first time only
+npm run build
+npm run start      # then open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For live editing use `npm run dev` instead.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What's inside
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/data/framework.json`: the real KRA/KPI framework, exported from `../artifacts/tools/kra_kpi_master.py`
+  (`python -I -c "exec(open('scripts/export_framework.py').read())"`).
+- `src/lib/scoring.ts`: scoring engine ported from the Excel blueprint formulas.
+  `npx tsx scripts/golden.test.ts` checks it reproduces the workbook (Self 80.5 / Dy Dir 74.3 / Final 74.3).
+- `src/lib/mock.ts`: 24 illustrative faculty. The signed-in faculty carries the Excel sample values.
+- Demo changes are kept in the browser (localStorage). "Reset demo data" in the sidebar restores the start state.
 
-## Learn More
+## Demo walk-through
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Faculty:** dashboard → My Appraisal (edit any KPI and watch the score move; each KPI shows whether evidence is Required, Optional or auto-verified) → Review & submit (blocked until required evidence is attached) → "Continue demo as Deputy Director".
+2. **Deputy Director:** review queue → change a validated value, add a comment → Validate & forward.
+3. **Director:** institution dashboard → Approvals → rate MOA → Approve (or bulk approve).
+4. **Admin:** cycles and the New-cycle wizard, Users & Roles, Framework Studio → Edit weights (draft → 100% checks → impact preview → publish with Director approval; the new version applies from the next cycle, the running cycle is unchanged).

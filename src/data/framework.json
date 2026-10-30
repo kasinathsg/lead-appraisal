@@ -1,0 +1,3613 @@
+{
+ "meta": {
+  "institution": "LEAD College of Management, Palakkad",
+  "title": "Faculty Appraisal Blueprint",
+  "subtitle": "KRA & KPI Framework - Rubrics, Metrics, Weightages & Live Scorecard",
+  "version": "1.0",
+  "date": "28 Oct 2026",
+  "framework_ref": "KRA & KPI of Faculty Members (Final, 23.11.2025)",
+  "legacy_ref": "Faculty Appraisal Form 2023 - R2 (Excel + PDF)",
+  "role_focus": "High-quality teaching, academic delivery, curriculum implementation, student learning outcomes, research, mentoring, evaluation, and contribution to institutional development."
+ },
+ "designations": [
+  "Assistant Professor",
+  "Associate Professor",
+  "Professor",
+  "Visiting Faculty"
+ ],
+ "ratings": [
+  {
+   "label": "Outstanding",
+   "score": 100
+  },
+  {
+   "label": "Exceeds Expectations",
+   "score": 80
+  },
+  {
+   "label": "Successfully Meets",
+   "score": 60
+  },
+  {
+   "label": "Partially Meets",
+   "score": 40
+  },
+  {
+   "label": "Does Not Meet",
+   "score": 0
+  }
+ ],
+ "perfBands": [
+  {
+   "min": 0,
+   "band": "Does Not Meet Expectations",
+   "code": "DME",
+   "meaning": "Performance well below the institutional standard; a development plan is mandatory."
+  },
+  {
+   "min": 40,
+   "band": "Partially Meets Expectations",
+   "code": "PME",
+   "meaning": "Some targets met; clear improvement areas identified with the Deputy Director."
+  },
+  {
+   "min": 60,
+   "band": "Successfully Meets Expectations",
+   "code": "SME",
+   "meaning": "Meets the institutional standard across most KRAs."
+  },
+  {
+   "min": 75,
+   "band": "Exceeds Expectations",
+   "code": "EE",
+   "meaning": "Consistently above target; eligible for recognition."
+  },
+  {
+   "min": 90,
+   "band": "Outstanding",
+   "code": "OS",
+   "meaning": "Exceptional, role-model performance across KRAs."
+  }
+ ],
+ "bands": {
+  "Band_Compliance": {
+   "title": "Deadline / Compliance Rate",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.8,
+     40
+    ],
+    [
+     0.9,
+     60
+    ],
+    [
+     0.95,
+     80
+    ],
+    [
+     1.0,
+     100
+    ]
+   ],
+   "note": "Share of items delivered on or before the deadline. Target 100%.",
+   "rubric": [
+    ">= 100%",
+    "95% to < 100%",
+    "90% to < 95%",
+    "80% to < 90%",
+    "< 80%"
+   ]
+  },
+  "Band_Syllabus": {
+   "title": "Syllabus Completion within Calendar",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.85,
+     40
+    ],
+    [
+     0.9,
+     60
+    ],
+    [
+     0.95,
+     80
+    ],
+    [
+     1.0,
+     100
+    ]
+   ],
+   "note": "Average % of syllabus covered by the academic-calendar end date across assigned courses.",
+   "rubric": [
+    ">= 100%",
+    "95% to < 100%",
+    "90% to < 95%",
+    "85% to < 90%",
+    "< 85%"
+   ]
+  },
+  "Band_TEI": {
+   "title": "Teaching Effectiveness Index (Student Feedback)",
+   "kind": "pct",
+   "source": "Adapted",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.6,
+     40
+    ],
+    [
+     0.7,
+     60
+    ],
+    [
+     0.8,
+     80
+    ],
+    [
+     0.9,
+     100
+    ]
+   ],
+   "note": "Legacy 1.1 TEI% (weight 45% of Teaching). Framework target >= 4/5 = 80%.",
+   "rubric": [
+    ">= 90%",
+    "80% to < 90%",
+    "70% to < 80%",
+    "60% to < 70%",
+    "< 60%"
+   ]
+  },
+  "Band_Innovation": {
+   "title": "Innovative Pedagogies per Course per Semester",
+   "kind": "count",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     40
+    ],
+    [
+     2,
+     60
+    ],
+    [
+     3,
+     80
+    ],
+    [
+     4,
+     100
+    ]
+   ],
+   "note": "Framework minimum 2-4 innovations per semester per course (cases, simulations, experiential tasks).",
+   "rubric": [
+    ">= 4",
+    "3 to < 4",
+    "2 to < 3",
+    "1 to < 2",
+    "< 1"
+   ]
+  },
+  "Band_Punctuality": {
+   "title": "Class Schedule Compliance & Punctuality",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.85,
+     40
+    ],
+    [
+     0.9,
+     60
+    ],
+    [
+     0.95,
+     80
+    ],
+    [
+     0.98,
+     100
+    ]
+   ],
+   "note": "Framework target >= 95% punctuality.",
+   "rubric": [
+    ">= 98%",
+    "95% to < 98%",
+    "90% to < 95%",
+    "85% to < 90%",
+    "< 85%"
+   ]
+  },
+  "Band_Pending": {
+   "title": "Pending Digital Academic Tasks (count at audit)",
+   "kind": "count",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     100
+    ],
+    [
+     1,
+     60
+    ],
+    [
+     2,
+     40
+    ],
+    [
+     3,
+     20
+    ],
+    [
+     5,
+     0
+    ]
+   ],
+   "note": "Inverse scale - zero pending items (attendance, marks, course files) is the target.",
+   "rubric": null
+  },
+  "Band_Audit": {
+   "title": "Academic Audit Score",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.5,
+     40
+    ],
+    [
+     0.6,
+     60
+    ],
+    [
+     0.75,
+     80
+    ],
+    [
+     0.9,
+     100
+    ]
+   ],
+   "note": "Score awarded by the academic audit / IQAC checklist (0-100%).",
+   "rubric": [
+    ">= 90%",
+    "75% to < 90%",
+    "60% to < 75%",
+    "50% to < 60%",
+    "< 50%"
+   ]
+  },
+  "Band_COLevel": {
+   "title": "Average CO Attainment Level (0-3)",
+   "kind": "level",
+   "source": "Adapted",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     1.0,
+     40
+    ],
+    [
+     1.5,
+     60
+    ],
+    [
+     2.0,
+     80
+    ],
+    [
+     2.5,
+     100
+    ]
+   ],
+   "note": "Legacy 1.3.6. OBE attainment levels 0-3; institutional benchmark = Level 2.",
+   "rubric": [
+    ">= 2.5",
+    "2 to < 2.5",
+    "1.5 to < 2",
+    "1 to < 1.5",
+    "< 1"
+   ]
+  },
+  "Band_Pass": {
+   "title": "Course Pass Percentage",
+   "kind": "pct",
+   "source": "Adapted",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.7,
+     40
+    ],
+    [
+     0.8,
+     60
+    ],
+    [
+     0.9,
+     80
+    ],
+    [
+     0.95,
+     100
+    ]
+   ],
+   "note": "Legacy 1.2 Student performance in university exams (10% of Teaching).",
+   "rubric": [
+    ">= 95%",
+    "90% to < 95%",
+    "80% to < 90%",
+    "70% to < 80%",
+    "< 70%"
+   ]
+  },
+  "Band_Sessions": {
+   "title": "Mentoring Sessions per Semester",
+   "kind": "count",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     40
+    ],
+    [
+     2,
+     60
+    ],
+    [
+     3,
+     80
+    ],
+    [
+     4,
+     100
+    ]
+   ],
+   "note": "Framework minimum 2-3 structured sessions per semester per mentor group.",
+   "rubric": [
+    ">= 4",
+    "3 to < 4",
+    "2 to < 3",
+    "1 to < 2",
+    "< 1"
+   ]
+  },
+  "Band_Improve": {
+   "title": "Weak-Mentee Improvement Rate",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.25,
+     40
+    ],
+    [
+     0.4,
+     60
+    ],
+    [
+     0.6,
+     80
+    ],
+    [
+     0.8,
+     100
+    ]
+   ],
+   "note": "% of mentees flagged at-risk at the start of term who improved (CGPA / attendance / engagement).",
+   "rubric": [
+    ">= 80%",
+    "60% to < 80%",
+    "40% to < 60%",
+    "25% to < 40%",
+    "< 25%"
+   ]
+  },
+  "Band_Response": {
+   "title": "Student Query Response within 48 Hours",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.75,
+     40
+    ],
+    [
+     0.85,
+     60
+    ],
+    [
+     0.95,
+     80
+    ],
+    [
+     1.0,
+     100
+    ]
+   ],
+   "note": "Measured from the query log / LMS helpdesk timestamps.",
+   "rubric": [
+    ">= 100%",
+    "95% to < 100%",
+    "85% to < 95%",
+    "75% to < 85%",
+    "< 75%"
+   ]
+  },
+  "Band_MenteeAttendance": {
+   "title": "Overall Mentee Attendance",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.75,
+     40
+    ],
+    [
+     0.8,
+     60
+    ],
+    [
+     0.85,
+     80
+    ],
+    [
+     0.9,
+     100
+    ]
+   ],
+   "note": "Framework KPI: overall attendance of all mentees together above 85%.",
+   "rubric": [
+    ">= 90%",
+    "85% to < 90%",
+    "80% to < 85%",
+    "75% to < 80%",
+    "< 75%"
+   ]
+  },
+  "Band_MenteePass": {
+   "title": "Overall Mentee Pass Percentage",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.75,
+     40
+    ],
+    [
+     0.85,
+     60
+    ],
+    [
+     0.9,
+     80
+    ],
+    [
+     0.95,
+     100
+    ]
+   ],
+   "note": "Framework KPI: pass % of mentees together above 90%.",
+   "rubric": [
+    ">= 95%",
+    "90% to < 95%",
+    "85% to < 90%",
+    "75% to < 85%",
+    "< 75%"
+   ]
+  },
+  "Band_Incidents": {
+   "title": "Discipline / Grooming Cases",
+   "kind": "count",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     100
+    ],
+    [
+     1,
+     60
+    ],
+    [
+     2,
+     40
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "note": "Framework target: 0 cases. Inverse scale.",
+   "rubric": null
+  },
+  "Band_Communication": {
+   "title": "Communication Index (mentees with zero yellow cards)",
+   "kind": "pct",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.6,
+     40
+    ],
+    [
+     0.7,
+     60
+    ],
+    [
+     0.8,
+     80
+    ],
+    [
+     0.9,
+     100
+    ]
+   ],
+   "note": "Yellow-card / black-point system for communication lapses, plus informal assessment.",
+   "rubric": [
+    ">= 90%",
+    "80% to < 90%",
+    "70% to < 80%",
+    "60% to < 70%",
+    "< 60%"
+   ]
+  },
+  "Band_Activity": {
+   "title": "Activities Conducted (count)",
+   "kind": "count",
+   "source": "New",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     40
+    ],
+    [
+     2,
+     60
+    ],
+    [
+     3,
+     80
+    ],
+    [
+     5,
+     100
+    ]
+   ],
+   "note": "Outreach programmes or placement-support activities in the review period.",
+   "rubric": [
+    ">= 5",
+    "3 to < 5",
+    "2 to < 3",
+    "1 to < 2",
+    "< 1"
+   ]
+  },
+  "Legacy_Internship": {
+   "title": "Legacy 3.1.1 - Mentees with Internship (% -> points)",
+   "kind": "pct",
+   "source": "Legacy",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.1,
+     5
+    ],
+    [
+     0.5,
+     10
+    ],
+    [
+     0.6,
+     15
+    ],
+    [
+     0.7,
+     20
+    ],
+    [
+     0.8,
+     25
+    ],
+    [
+     0.9,
+     30
+    ]
+   ],
+   "note": "Verbatim legacy VLOOKUP table (points, max 30).",
+   "rubric": null
+  },
+  "Legacy_Placement": {
+   "title": "Legacy 3.1.2 - Mentees with Placement Offers (% -> points)",
+   "kind": "pct",
+   "source": "Legacy",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     0.1,
+     5
+    ],
+    [
+     0.5,
+     10
+    ],
+    [
+     0.6,
+     15
+    ],
+    [
+     0.7,
+     20
+    ],
+    [
+     0.8,
+     25
+    ],
+    [
+     0.9,
+     30
+    ]
+   ],
+   "note": "Verbatim legacy VLOOKUP table (points, max 30).",
+   "rubric": null
+  },
+  "Legacy_Admissions": {
+   "title": "Legacy 3.2.1 - References Converted to Admissions",
+   "kind": "count",
+   "source": "Legacy",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     20
+    ],
+    [
+     5,
+     40
+    ],
+    [
+     10,
+     60
+    ],
+    [
+     15,
+     80
+    ],
+    [
+     20,
+     100
+    ]
+   ],
+   "note": "Verbatim legacy VLOOKUP table (score 0-100).",
+   "rubric": [
+    ">= 20",
+    "15 to < 20",
+    "10 to < 15",
+    "5 to < 10",
+    "< 5"
+   ]
+  },
+  "Legacy_Revenue": {
+   "title": "Legacy 4.1 - Consultancy / Training / Sponsorship Revenue (Rs.)",
+   "kind": "amount",
+   "source": "Legacy",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     10000,
+     20
+    ],
+    [
+     50000,
+     40
+    ],
+    [
+     60000,
+     60
+    ],
+    [
+     150000,
+     80
+    ],
+    [
+     200000,
+     100
+    ]
+   ],
+   "note": "Verbatim legacy VLOOKUP table (points).",
+   "rubric": [
+    ">= Rs.200,000",
+    "Rs.150,000 to < Rs.200,000",
+    "Rs.60,000 to < Rs.150,000",
+    "Rs.50,000 to < Rs.60,000",
+    "< Rs.50,000"
+   ]
+  },
+  "Legacy_SpecialKey": {
+   "title": "Legacy 4.3 - Special Assignments Scoring Key",
+   "kind": "count",
+   "source": "Legacy",
+   "rows": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     20
+    ],
+    [
+     2,
+     40
+    ],
+    [
+     3,
+     60
+    ],
+    [
+     4,
+     80
+    ],
+    [
+     6,
+     100
+    ]
+   ],
+   "note": "Verbatim legacy key: 1 PME=1 ->20, 1 SME=2 ->40, 1 EE=3 ->60, 2 SME=4 ->80, 2 EE=6 ->100.",
+   "rubric": [
+    ">= 6",
+    "4 to < 6",
+    "3 to < 4",
+    "2 to < 3",
+    "< 2"
+   ]
+  }
+ },
+ "components": [
+  {
+   "id": "KRA1",
+   "no": 1,
+   "short": "Teaching",
+   "name": "Teaching, Learning & Academic Delivery",
+   "focus": "Effective and timely delivery of assigned courses.",
+   "intent": "Measures how well, how punctually and how innovatively the faculty member delivers assigned courses, as experienced by students and evidenced in the LMS.",
+   "sources": "Academic calendar, LMS (course plans, attendance, digital tools), student feedback (TEI), class observation.",
+   "color": "#2A78D6",
+   "kpis": [
+    {
+     "id": "1.1",
+     "name": "Course plan submission & adherence",
+     "level": "KPI",
+     "doc": "Course plan submission and adherence rate (target: 100%)",
+     "definition": "Course/session plans for every assigned course submitted before term start and sessions delivered as planned.",
+     "measure": "(Course plans submitted on time AND sessions delivered as per plan) / total assigned courses",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 15,
+     "evidence": "Approved course plan per course; LMS session-delivery log; Deputy Director sign-off.",
+     "capture": "LMS / Academic Office",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.1 Adherence to set timelines for submission of academic documents (EE/SME/PME/DME)",
+     "sample": [
+      0.95,
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "1.2",
+     "name": "Syllabus completion within academic calendar",
+     "level": "KPI",
+     "doc": "Completion of syllabus within academic calendar timelines",
+     "definition": "Proportion of the prescribed syllabus completed by the academic-calendar end date.",
+     "measure": "Average % of syllabus units completed by the calendar cut-off across assigned courses",
+     "unit": "%",
+     "input": "pct",
+     "target": "100% by calendar end-date",
+     "method": "band",
+     "table": "Band_Syllabus",
+     "weight": 10,
+     "evidence": "Course coverage report from LMS; completion certificate countersigned by Deputy Director.",
+     "capture": "LMS",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      1.0,
+      0.95,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "1.3",
+     "name": "Quality of teaching delivery - student feedback (TEI)",
+     "level": "KPI",
+     "doc": "Quality of teaching delivery (student feedback score: target ≥ 4/5)",
+     "definition": "Teaching Effectiveness Index from structured student feedback, averaged across all courses taught.",
+     "measure": "Average TEI % of all courses (auto-filled from the Course Register; 4/5 = 80%)",
+     "unit": "%",
+     "input": "pct",
+     "target": ">= 80% (4 / 5)",
+     "method": "band",
+     "table": "Band_TEI",
+     "weight": 25,
+     "evidence": "Course-wise student feedback report (feedback system export).",
+     "capture": "Student feedback system (auto)",
+     "frequency": "Per semester",
+     "entered_by": "System / Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "1.1 Students' Evaluation of Faculty - TEI % (Faculty) & TEI % (Dean); 45% of Teaching",
+     "course_feed": "TEI",
+     "sample": [
+      null,
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "1.4",
+     "name": "Use of innovative pedagogies",
+     "level": "KPI",
+     "doc": "Use of innovative pedagogies (cases, simulations, experiential tasks) Minimum: 2–4 innovations per semester per course",
+     "definition": "Cases, simulations, role plays, live projects, flipped/experiential tasks introduced per course.",
+     "measure": "Average number of documented innovations per course per semester",
+     "unit": "Count",
+     "input": "count",
+     "target": "2-4 per course per semester",
+     "method": "band",
+     "table": "Band_Innovation",
+     "weight": 15,
+     "evidence": "Innovation log with session plan reference, student artefacts / photos, LMS activity link.",
+     "capture": "Faculty self-entry + LMS",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.2 Creativeness and Innovativeness in Teaching (EE/SME/PME/DME)",
+     "sample": [
+      3,
+      2,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "1.5",
+     "name": "Class schedule compliance & punctuality",
+     "level": "KPI",
+     "doc": "Compliance with class schedule & attendance (≥ 95% punctuality)",
+     "definition": "Sessions started on time and conducted as per timetable (no unapproved cancellations).",
+     "measure": "Sessions engaged on time / total scheduled sessions",
+     "unit": "%",
+     "input": "pct",
+     "target": ">= 95%",
+     "method": "band",
+     "table": "Band_Punctuality",
+     "weight": 10,
+     "evidence": "Timetable vs biometric / LMS attendance log; class-monitor report.",
+     "capture": "Biometric / LMS (auto)",
+     "frequency": "Monthly roll-up",
+     "entered_by": "System",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      0.97,
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "1.6",
+     "name": "Class decorum & professional grooming",
+     "level": "KPI",
+     "doc": "Maintaining class decorum and grooming",
+     "definition": "Maintains classroom discipline, professional conduct and institutional dress code.",
+     "measure": "Deputy Director rating on the 5-level rubric (observation + incident register)",
+     "unit": "Rating",
+     "input": "rating",
+     "target": "Successfully Meets or above",
+     "method": "rating",
+     "weight": 5,
+     "rubric": [
+      "Exemplary decorum; zero incidents; role model for students and peers.",
+      "Consistently professional; zero incidents; proactive classroom management.",
+      "Professional conduct; minor lapses corrected on first feedback.",
+      "Repeated lapses in decorum or grooming noted.",
+      "Serious or recurring incidents recorded."
+     ],
+     "evidence": "Class observation notes; incident register (nil report).",
+     "capture": "Deputy Director observation",
+     "frequency": "Annual (with 2 observations)",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      "Exceeds Expectations",
+      "Successfully Meets",
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "1.7",
+     "name": "Digital / online tools for assessment & engagement",
+     "level": "KPI",
+     "doc": "Use of digital/online learning tools for assessments and engagement",
+     "definition": "Effective use of LMS quizzes, polls, discussion forums, simulations and analytics in teaching.",
+     "measure": "Rubric rating based on LMS usage analytics and observation",
+     "unit": "Rating",
+     "input": "rating",
+     "target": "Successfully Meets or above",
+     "method": "rating",
+     "weight": 10,
+     "rubric": [
+      "Every course uses >= 3 digital tools; analytics used to adapt teaching; shares practice with peers.",
+      "Every course uses 2-3 digital tools for both assessment and engagement.",
+      "Every course uses at least one digital assessment and one engagement tool.",
+      "Digital tools used in some courses only, mainly for content upload.",
+      "No meaningful use of digital tools beyond mandatory uploads."
+     ],
+     "evidence": "LMS analytics report; sample quizzes / forums / simulation links.",
+     "capture": "LMS analytics",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.4 Use of ICT in Teaching (EE/SME/PME/DME)",
+     "sample": [
+      "Outstanding",
+      "Exceeds Expectations",
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "1.8",
+     "name": "Zero pending digital academic tasks",
+     "level": "KPI",
+     "doc": "Zero pending digital academic tasks (attendance, marks, course files)",
+     "definition": "Attendance, internal marks and course files are complete and current in the LMS at audit.",
+     "measure": "Number of pending digital items found at the audit cut-off date",
+     "unit": "Count",
+     "input": "count",
+     "target": "0 pending",
+     "method": "band",
+     "table": "Band_Pending",
+     "weight": 10,
+     "rubric": [
+      "0 pending items",
+      "- (no intermediate level)",
+      "1 pending item",
+      "2 pending items",
+      "3-4 pending items (20 pts); 5 or more (0)"
+     ],
+     "evidence": "LMS pending-task report at audit cut-off.",
+     "capture": "LMS (auto)",
+     "frequency": "Monthly audit",
+     "entered_by": "System",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.5 Quality & Maintenance of Teaching records (EE/SME/PME/DME)",
+     "sample": [
+      0,
+      1,
+      null
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "KRA2",
+   "no": 2,
+   "short": "Curriculum & CO-PO",
+   "name": "Curriculum Implementation & CO–PO Outcome Achievement",
+   "focus": "Aligns with Deputy Director’s academic delivery governance.",
+   "intent": "Ensures every course is designed and assessed against defined Course Outcomes mapped to Programme Outcomes, and that those outcomes are actually attained.",
+   "sources": "OBE / CO-PO mapping sheets, academic audit, LMS uploads, university / end-term results.",
+   "color": "#EB6834",
+   "kpis": [
+    {
+     "id": "2.1",
+     "name": "Accuracy & completeness of CO-PO mapping",
+     "level": "KPI",
+     "doc": "Accuracy and completeness of CO–PO mapping for assigned courses",
+     "definition": "Every assigned course has COs written with action verbs and a justified CO-PO correlation matrix.",
+     "measure": "Audit rating of the CO-PO mapping documents on the 5-level rubric",
+     "unit": "Rating",
+     "input": "rating",
+     "target": "Successfully Meets or above",
+     "method": "rating",
+     "weight": 20,
+     "rubric": [
+      "All courses mapped; justification for every correlation; adopted as a model by IQAC.",
+      "All courses mapped with justification; minor edits only.",
+      "All courses mapped; some correlations lack justification.",
+      "Mapping incomplete for one or more courses.",
+      "Mapping not submitted / largely inaccurate."
+     ],
+     "evidence": "CO-PO matrix per course; IQAC audit checklist.",
+     "capture": "IQAC academic audit",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      "Exceeds Expectations",
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "2.2",
+     "name": "Quality of CO-PO aligned assessments",
+     "level": "KPI",
+     "doc": "Quality of CO–PO aligned assessments (faculty audit score)",
+     "definition": "Assessments (quizzes, assignments, exams) are tagged to COs and cover all COs adequately.",
+     "measure": "Faculty academic-audit score for assessment alignment (0-100%)",
+     "unit": "%",
+     "input": "pct",
+     "target": ">= 75%",
+     "method": "band",
+     "table": "Band_Audit",
+     "weight": 25,
+     "evidence": "Assessment blueprint with CO tags; audit score sheet.",
+     "capture": "Academic audit",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "Linked to 1.3.3 Quality of Question Paper & Evaluation",
+     "sample": [
+      0.8,
+      0.72,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "2.3",
+     "name": "Achievement of defined learning outcomes",
+     "level": "KPI",
+     "doc": "Achievement of defined learning outcomes (course outcome attainment ≥ benchmark)",
+     "definition": "Course outcomes are attained at or above the institutional benchmark and students pass the course.",
+     "measure": "Weighted average of 2.3.1 CO attainment and 2.3.2 pass %",
+     "unit": "Score",
+     "input": "none",
+     "target": "CO attainment >= Level 2",
+     "method": "wavg",
+     "weight": 35,
+     "evidence": "CO attainment calculation sheet; result analysis.",
+     "capture": "OBE system / Exam cell",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.6 Average CO Attainment Levels Achieved + 1.2 Student's Academic Performance in Course",
+     "children": [
+      {
+       "id": "2.3.1",
+       "name": "Average CO attainment level achieved",
+       "level": "SUB",
+       "doc": "course outcome attainment ≥ benchmark",
+       "definition": "Average attainment level (0-3) across all COs of all assigned courses.",
+       "measure": "Average CO attainment level (0.00 - 3.00)",
+       "unit": "Level 0-3",
+       "input": "level",
+       "target": ">= Level 2 (benchmark)",
+       "method": "band",
+       "table": "Band_COLevel",
+       "weight": 60,
+       "evidence": "CO attainment worksheet (direct + indirect).",
+       "capture": "OBE system",
+       "frequency": "Per semester",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "1.3.6 Average CO Attainment Levels Achieved",
+       "sample": [
+        2.2,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "2.3.2",
+       "name": "Student pass percentage in assigned courses",
+       "level": "SUB",
+       "doc": "(legacy) Student's Academic Performance in Course - Total Pass %",
+       "definition": "Average pass % across assigned courses (auto-filled from the Course Register).",
+       "measure": "Average pass % of all courses",
+       "unit": "%",
+       "input": "pct",
+       "target": ">= 90%",
+       "method": "band",
+       "table": "Band_Pass",
+       "weight": 40,
+       "evidence": "Exam-cell result sheet per course.",
+       "capture": "Exam cell (auto)",
+       "frequency": "Per semester",
+       "entered_by": "System / Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "1.2 Student's Academic Performance in Course - Total Pass % (10% of Teaching)",
+       "course_feed": "PASS",
+       "sample": [
+        null,
+        null,
+        null
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "2.4",
+     "name": "Timely LMS upload of course files, session plans & materials",
+     "level": "KPI",
+     "doc": "Timely submission and uploading on LMS of course files, session plans, and learning materials (100%)",
+     "definition": "Course file, session plans and learning materials uploaded to the LMS by the stipulated dates.",
+     "measure": "Items uploaded by deadline / items required",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 20,
+     "evidence": "LMS upload log with timestamps.",
+     "capture": "LMS (auto)",
+     "frequency": "Per semester",
+     "entered_by": "System",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.1 Adherence to timelines (secondary) & 1.3.5 Teaching records",
+     "sample": [
+      1.0,
+      0.95,
+      null
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "KRA3",
+   "no": 3,
+   "short": "Assessment & Evaluation",
+   "name": "Assessment, Examination & Evaluation Duties",
+   "focus": "To support the Deputy Director’s exam & evaluation coordination efforts.",
+   "intent": "Covers the integrity, quality and timeliness of question papers, evaluation, marks upload and feedback to students.",
+   "sources": "Exam cell deadlines, question-paper audit, LMS marks upload log, assignment feedback timestamps.",
+   "color": "#1BAF7A",
+   "kpis": [
+    {
+     "id": "3.1",
+     "name": "Timely question papers & answer keys",
+     "level": "KPI",
+     "doc": "Timely preparation of question papers and answer keys (100% deadline compliance)",
+     "definition": "Question papers, schemes of evaluation and answer keys submitted to the exam cell by deadline.",
+     "measure": "Papers submitted by deadline / papers assigned",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 20,
+     "evidence": "Exam-cell submission register.",
+     "capture": "Exam cell",
+     "frequency": "Per exam cycle",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI (timeliness part of 1.3.1)",
+     "sample": [
+      1.0,
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "3.2",
+     "name": "Quality score of question papers",
+     "level": "KPI",
+     "doc": "Quality score of question papers (based on academic audit: Bloom’s taxonomy, coverage, difficulty mix)",
+     "definition": "Question papers balance Bloom's levels, cover all units/COs and have an appropriate difficulty mix.",
+     "measure": "Question-paper audit score (0-100%)",
+     "unit": "%",
+     "input": "pct",
+     "target": ">= 75%",
+     "method": "band",
+     "table": "Band_Audit",
+     "weight": 25,
+     "evidence": "QP audit checklist (Bloom's level map, CO coverage, difficulty index).",
+     "capture": "Academic audit",
+     "frequency": "Per exam cycle",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.3 Quality of Question Paper & Evaluation (EE/SME/PME/DME)",
+     "sample": [
+      0.82,
+      0.78,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "3.3",
+     "name": "Timely evaluation, marks upload & result submission",
+     "level": "KPI",
+     "doc": "Timely completion of evaluation, internal marks upload on LMS, and result submission",
+     "definition": "Evaluation completed and internal marks / results uploaded to the LMS within the notified window.",
+     "measure": "Evaluations completed & uploaded on time / total evaluations",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 20,
+     "evidence": "LMS marks-upload log; exam-cell result receipt.",
+     "capture": "LMS (auto)",
+     "frequency": "Per exam cycle",
+     "entered_by": "System",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      1.0,
+      0.95,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "3.4",
+     "name": "Rubric-based evaluation accuracy & documentation",
+     "level": "KPI",
+     "doc": "Rubric-based evaluation accuracy and documentation completeness",
+     "definition": "Evaluation follows published rubrics; re-evaluation variance is low; scripts and records are complete.",
+     "measure": "Deputy Director rating after sample re-check of evaluated scripts",
+     "unit": "Rating",
+     "input": "rating",
+     "target": "Successfully Meets or above",
+     "method": "rating",
+     "weight": 20,
+     "rubric": [
+      "Rubrics published for all components; re-check variance < 5%; complete records.",
+      "Rubrics used throughout; variance 5-10%; records complete.",
+      "Rubrics used for major components; variance 10-15%; minor gaps in records.",
+      "Inconsistent use of rubrics; variance > 15% or records incomplete.",
+      "No rubric-based evaluation; significant errors or missing records."
+     ],
+     "evidence": "Rubrics; sample of evaluated scripts; moderation / re-check report.",
+     "capture": "Deputy Director sample audit",
+     "frequency": "Per exam cycle",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "1.3.3 Quality of Question Paper & Evaluation (evaluation part)",
+     "sample": [
+      "Exceeds Expectations",
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "3.5",
+     "name": "Assignment feedback within 3 days",
+     "level": "KPI",
+     "doc": "Timely submission of assignment feedback (within 3 days)-100% compliance.",
+     "definition": "Graded feedback returned to students within 3 working days of the submission deadline.",
+     "measure": "Assignments with feedback within 3 days / total assignments",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 15,
+     "evidence": "LMS grading timestamps.",
+     "capture": "LMS (auto)",
+     "frequency": "Per semester",
+     "entered_by": "System",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      0.95,
+      0.9,
+      null
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "KRA4",
+   "no": 4,
+   "short": "Mentoring",
+   "name": "Student Mentoring, Support & Engagement",
+   "focus": "Student academic/career guidance and performance tracking.",
+   "intent": "Holds the mentor accountable for the whole journey of the mentee group: regularity, results, discipline, grooming, communication, internships, placements and achievements.",
+   "sources": "Mentoring register, mentee dashboards, attendance & results, discipline register, placement cell.",
+   "color": "#EDA100",
+   "kpis": [
+    {
+     "id": "4.1",
+     "name": "Completion of mentoring sessions",
+     "level": "KPI",
+     "doc": "Completion of mentoring sessions (minimum: 2–3 per semester)",
+     "definition": "Structured one-to-one / group mentoring sessions held with the mentor group.",
+     "measure": "Average number of documented sessions per semester",
+     "unit": "Count",
+     "input": "count",
+     "target": "2-3 per semester",
+     "method": "band",
+     "table": "Band_Sessions",
+     "weight": 15,
+     "evidence": "Mentoring register with dates, attendees and action points.",
+     "capture": "Mentoring module",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      3,
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "4.2",
+     "name": "Mentoring reports & progress dashboards on time",
+     "level": "KPI",
+     "doc": "Submission of mentoring reports and student progress dashboards on time",
+     "definition": "Mentoring reports and mentee progress dashboards submitted by the stipulated dates.",
+     "measure": "Reports submitted on time / reports due",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 10,
+     "evidence": "Report submission log.",
+     "capture": "Mentoring module",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      1.0,
+      0.9,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "4.3",
+     "name": "Improvement in mentee performance / engagement",
+     "level": "KPI",
+     "doc": "Improvement in mentee academic performance or engagement metrics",
+     "definition": "At-risk mentees identified at term start show measurable improvement by term end.",
+     "measure": "At-risk mentees improved / at-risk mentees identified",
+     "unit": "%",
+     "input": "pct",
+     "target": ">= 60%",
+     "method": "band",
+     "table": "Band_Improve",
+     "weight": 15,
+     "evidence": "Before/after CGPA, attendance and engagement data for flagged mentees.",
+     "capture": "Mentee dashboard",
+     "frequency": "Per semester",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      0.55,
+      0.45,
+      0.5
+     ],
+     "children": []
+    },
+    {
+     "id": "4.4",
+     "name": "Responsiveness to student queries (48 hours)",
+     "level": "KPI",
+     "doc": "Responsiveness to student queries (within 48 hours)",
+     "definition": "Mentee / student queries acknowledged and resolved or routed within 48 hours.",
+     "measure": "Queries responded within 48 h / total queries",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Response",
+     "weight": 10,
+     "evidence": "Query log / LMS helpdesk timestamps.",
+     "capture": "LMS helpdesk",
+     "frequency": "Per semester",
+     "entered_by": "System",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      0.95,
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "4.5",
+     "name": "Contribution to mentee's overall development",
+     "level": "KPI",
+     "doc": "Contribution to mentee’s overall development as indicated by academic regularity & progress, improvements in weak areas, internship/placement performance.",
+     "definition": "Composite of eight mentee-outcome indicators defined in the framework (KPI 1-8).",
+     "measure": "Weighted average of 4.5.1 - 4.5.8",
+     "unit": "Score",
+     "input": "none",
+     "target": "See sub-KPIs",
+     "method": "wavg",
+     "weight": 50,
+     "evidence": "See sub-KPIs.",
+     "capture": "Multiple",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "3.1 Mentoring (40% of Institutional Development) - 3.1.1 to 3.1.5",
+     "children": [
+      {
+       "id": "4.5.1",
+       "name": "Overall attendance of mentees (> 85%)",
+       "level": "SUB",
+       "doc": "KPI 1: Overall attendance % of all  mentees together - above 85%",
+       "definition": "Aggregate attendance of the entire mentor group.",
+       "measure": "Mentor-group attendance %",
+       "unit": "%",
+       "input": "pct",
+       "target": "> 85%",
+       "method": "band",
+       "table": "Band_MenteeAttendance",
+       "weight": 15,
+       "evidence": "LMS attendance report for mentor group.",
+       "capture": "LMS (auto)",
+       "frequency": "Per semester",
+       "entered_by": "System",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0.87,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "4.5.2",
+       "name": "Pass % of mentees (> 90%)",
+       "level": "SUB",
+       "doc": "KPI 2: Pass % of each mentees together above 90%",
+       "definition": "Share of mentees who cleared all courses in the review period.",
+       "measure": "Mentees passed in all courses / total mentees",
+       "unit": "%",
+       "input": "pct",
+       "target": "> 90%",
+       "method": "band",
+       "table": "Band_MenteePass",
+       "weight": 15,
+       "evidence": "Exam-cell result for mentor group.",
+       "capture": "Exam cell (auto)",
+       "frequency": "Per semester",
+       "entered_by": "System",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0.93,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "4.5.3",
+       "name": "Discipline cases among mentees (target 0)",
+       "level": "SUB",
+       "doc": "KPI 3: Discipline of the mentees - 0 cases",
+       "definition": "Disciplinary cases recorded against mentees.",
+       "measure": "Number of discipline cases",
+       "unit": "Count",
+       "input": "count",
+       "target": "0",
+       "method": "band",
+       "table": "Band_Incidents",
+       "weight": 10,
+       "rubric": [
+        "0 cases",
+        "- (no intermediate level)",
+        "1 case",
+        "2 cases",
+        "3 or more cases"
+       ],
+       "evidence": "Discipline committee register.",
+       "capture": "Discipline committee",
+       "frequency": "Annual",
+       "entered_by": "System",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0,
+        1,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "4.5.4",
+       "name": "Grooming cases among mentees (target 0)",
+       "level": "SUB",
+       "doc": "KPI 4: Grooming of the mentees - 0 cases",
+       "definition": "Dress-code / grooming violations recorded against mentees.",
+       "measure": "Number of grooming cases",
+       "unit": "Count",
+       "input": "count",
+       "target": "0",
+       "method": "band",
+       "table": "Band_Incidents",
+       "weight": 10,
+       "rubric": [
+        "0 cases",
+        "- (no intermediate level)",
+        "1 case",
+        "2 cases",
+        "3 or more cases"
+       ],
+       "evidence": "Grooming / discipline register.",
+       "capture": "Discipline committee",
+       "frequency": "Annual",
+       "entered_by": "System",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "4.5.5",
+       "name": "Premium internships & PPOs",
+       "level": "SUB",
+       "doc": "KPI 5: Number of mentees’ internships in premium companies outside Kerala - PPOs",
+       "definition": "Internship reach of the mentor group, rewarding premium internships outside Kerala and PPOs.",
+       "measure": "Points from internship %, premium internships and PPOs; full score at 60 points",
+       "unit": "Points",
+       "input": "none",
+       "target": "60 points",
+       "method": "points",
+       "p100": 60,
+       "weight": 15,
+       "evidence": "Internship offer letters; PPO letters; placement-cell confirmation.",
+       "capture": "Placement cell",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "3.1.1 % of mentees who secured internship in approved companies (0-30 pts)",
+       "children": [
+        {
+         "id": "4.5.5a",
+         "name": "% of mentees with internship in approved companies",
+         "level": "COMP",
+         "input": "pct",
+         "factor": null,
+         "cap": null,
+         "lookup": "Legacy_Internship",
+         "legacy": "3.1.1 (verbatim VLOOKUP)",
+         "sample": [
+          0.85,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "%",
+         "legacy_value": "0-30 pts table",
+         "children": []
+        },
+        {
+         "id": "4.5.5b",
+         "name": "Mentees with premium internships outside Kerala",
+         "level": "COMP",
+         "input": "count",
+         "factor": 10,
+         "cap": 30,
+         "lookup": null,
+         "legacy": "New",
+         "sample": [
+          2,
+          1,
+          null
+         ],
+         "max_count": null,
+         "unit": "Count",
+         "legacy_value": "-",
+         "children": []
+        },
+        {
+         "id": "4.5.5c",
+         "name": "Pre-Placement Offers (PPOs) received by mentees",
+         "level": "COMP",
+         "input": "count",
+         "factor": 20,
+         "cap": 40,
+         "lookup": null,
+         "legacy": "New",
+         "sample": [
+          1,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "Count",
+         "legacy_value": "-",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "4.5.6",
+       "name": "Premium placements (Fortune 500) & total CTC",
+       "level": "SUB",
+       "doc": "KPI 6: Number of students with premium placement - Fortune 500 companies. (Total of CTC)",
+       "definition": "Placement outcomes of mentees, with extra credit for Fortune-500 / premium recruiters and CTC.",
+       "measure": "Points from placement %, premium placements and total CTC; full score at 60 points",
+       "unit": "Points",
+       "input": "none",
+       "target": "60 points",
+       "method": "points",
+       "p100": 60,
+       "weight": 15,
+       "evidence": "Offer letters; placement-cell CTC statement.",
+       "capture": "Placement cell",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "3.1.2 % of mentees who received placement offer letters (0-30 pts)",
+       "children": [
+        {
+         "id": "4.5.6a",
+         "name": "% of mentees with placement offers",
+         "level": "COMP",
+         "input": "pct",
+         "factor": null,
+         "cap": null,
+         "lookup": "Legacy_Placement",
+         "legacy": "3.1.2 (verbatim VLOOKUP)",
+         "sample": [
+          0.8,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "%",
+         "legacy_value": "0-30 pts table",
+         "children": []
+        },
+        {
+         "id": "4.5.6b",
+         "name": "Mentees placed in Fortune-500 / premium companies",
+         "level": "COMP",
+         "input": "count",
+         "factor": 15,
+         "cap": 30,
+         "lookup": null,
+         "legacy": "New",
+         "sample": [
+          1,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "Count",
+         "legacy_value": "-",
+         "children": []
+        },
+        {
+         "id": "4.5.6c",
+         "name": "Total CTC of premium placements (Rs. lakh p.a.)",
+         "level": "COMP",
+         "input": "amount",
+         "factor": 1,
+         "cap": 30,
+         "lookup": null,
+         "legacy": "New",
+         "sample": [
+          18,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "Rs. lakh",
+         "legacy_value": "-",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "4.5.7",
+       "name": "Communication skills of mentees (yellow-card index)",
+       "level": "SUB",
+       "doc": "KPI 7: Communication skills of the mentees - Yellow card or any other method ( black points or can we think of informal way of assessing)",
+       "definition": "A yellow card (black point) is issued for each communication lapse (non-English use in campus, poor presentation etiquette, unprofessional email). Index = mentees with zero cards.",
+       "measure": "Mentees with zero yellow cards / total mentees (+ informal assessment by Dy Director)",
+       "unit": "%",
+       "input": "pct",
+       "target": ">= 80%",
+       "method": "band",
+       "table": "Band_Communication",
+       "weight": 10,
+       "evidence": "Yellow-card register; communication lab assessment.",
+       "capture": "Communication lab / Dy Director",
+       "frequency": "Per semester",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0.82,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "4.5.8",
+       "name": "Mentee publications, presentations, awards & recognitions",
+       "level": "SUB",
+       "doc": "KPI 8: Publications, conference, awards and recognitions",
+       "definition": "Achievements of mentees in fests, competitions, conferences and journals.",
+       "measure": "Points from legacy multipliers (with legacy caps); full score at 30 points",
+       "unit": "Points",
+       "input": "none",
+       "target": "30 points",
+       "method": "points",
+       "p100": 30,
+       "weight": 10,
+       "evidence": "Certificates; publication / presentation proofs.",
+       "capture": "Faculty self-entry",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "3.1.3, 3.1.4, 3.1.5 (x1.5 cap 15, x1.5 cap 15, x1 cap 10)",
+       "children": [
+        {
+         "id": "4.5.8a",
+         "name": "Awards / recognitions won by mentees in management fests / external competitions",
+         "level": "COMP",
+         "input": "count",
+         "factor": 1.5,
+         "cap": 15,
+         "lookup": null,
+         "legacy": "3.1.3 (x1.5, max 15)",
+         "sample": [
+          4,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "Count",
+         "legacy_value": "x1.5, max 15",
+         "children": []
+        },
+        {
+         "id": "4.5.8b",
+         "name": "Publications / conference presentations by mentees",
+         "level": "COMP",
+         "input": "count",
+         "factor": 1.5,
+         "cap": 15,
+         "lookup": null,
+         "legacy": "3.1.4 (x1.5, max 15)",
+         "sample": [
+          2,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "Count",
+         "legacy_value": "x1.5, max 15",
+         "children": []
+        },
+        {
+         "id": "4.5.8c",
+         "name": "Mentee publications in peer-reviewed journals of repute",
+         "level": "COMP",
+         "input": "count",
+         "factor": 1,
+         "cap": 10,
+         "lookup": null,
+         "legacy": "3.1.5 (x1, max 10)",
+         "sample": [
+          1,
+          null,
+          null
+         ],
+         "max_count": null,
+         "unit": "Count",
+         "legacy_value": "x1, max 10",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KRA5",
+   "no": 5,
+   "short": "Research",
+   "name": "Research, Publications & Academic Contributions",
+   "focus": "Encourages scholarly productivity.",
+   "intent": "Recognises publications, scholarly participation, books, cases, consultancy, IP and doctoral work. Legacy Research (2.x) and Consultancy (4.1, 4.2) point systems are retained.",
+   "sources": "Publication proofs (DOI / indexing), certificates, consultancy receipts (accounts), patent office records, university records.",
+   "color": "#E87BA4",
+   "kpis": [
+    {
+     "id": "5.1",
+     "name": "Research publications - journals & conference papers",
+     "level": "KPI",
+     "doc": "Number of research publications (journals, cases, conferences) per year Benchmark: 2 papers/year (as per institutional norms from time to time)",
+     "definition": "Peer-reviewed journal articles and papers presented at conferences, weighted by venue quality.",
+     "measure": "Sum of equivalent points (legacy 2.1 & 2.3.1-2.3.3); full score at 80 points (= 2 Scopus papers)",
+     "unit": "Points",
+     "input": "none",
+     "target": "2 papers / year (80 pts)",
+     "method": "points",
+     "p100": 80,
+     "weight": 35,
+     "evidence": "Published paper / acceptance letter; indexing proof (ABDC, Scopus, WoS, UGC-CARE); conference certificate.",
+     "capture": "Faculty self-entry + Research cell verification",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "2.1 Publication in National & International Journals (30% of Research) and 2.3.1-2.3.3 paper presentations",
+     "children": [
+      {
+       "id": "5.1a",
+       "name": "Publications in ABDC-listed journals",
+       "level": "COMP",
+       "input": "count",
+       "factor": 50,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.1.1 (50 pts each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "50",
+       "children": []
+      },
+      {
+       "id": "5.1b",
+       "name": "Publications in Scopus / Web of Science indexed journals",
+       "level": "COMP",
+       "input": "count",
+       "factor": 40,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.1.2 (40 pts each)",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "40",
+       "children": []
+      },
+      {
+       "id": "5.1c",
+       "name": "Publications in UGC-CARE listed journals",
+       "level": "COMP",
+       "input": "count",
+       "factor": 25,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.1.3 (25 pts each)",
+       "sample": [
+        1,
+        0,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "25",
+       "children": []
+      },
+      {
+       "id": "5.1d",
+       "name": "Publications in peer-reviewed journals of repute",
+       "level": "COMP",
+       "input": "count",
+       "factor": 15,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.1.4 (15 pts each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "15",
+       "children": []
+      },
+      {
+       "id": "5.1e",
+       "name": "Publications in any standard journal",
+       "level": "COMP",
+       "input": "count",
+       "factor": 5,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.1.5 (5 pts each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "5",
+       "children": []
+      },
+      {
+       "id": "5.1f",
+       "name": "Papers presented - conferences of reputed international agencies",
+       "level": "COMP",
+       "input": "count",
+       "factor": 50,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.3.1 (50 pts each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "50",
+       "children": []
+      },
+      {
+       "id": "5.1g",
+       "name": "Papers presented - conferences of reputed national agencies",
+       "level": "COMP",
+       "input": "count",
+       "factor": 30,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.3.2 (30 pts each)",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "30",
+       "children": []
+      },
+      {
+       "id": "5.1h",
+       "name": "Papers presented - conferences hosted by universities / colleges",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.3.3 (10 pts each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "5.2",
+     "name": "Participation in research workshops, FDPs, conferences & invited talks",
+     "level": "KPI",
+     "doc": "Participation in research workshops, FDPs, or conferences",
+     "definition": "Continuous professional development and scholarly visibility.",
+     "measure": "Sum of equivalent points (legacy 2.3.4-2.3.7); full score at 40 points",
+     "unit": "Points",
+     "input": "none",
+     "target": "40 points",
+     "method": "points",
+     "p100": 40,
+     "weight": 15,
+     "evidence": "Participation certificates; invitation letters.",
+     "capture": "Faculty self-entry",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "2.3 Participation in conferences / seminars / workshops (20% of Research)",
+     "children": [
+      {
+       "id": "5.2a",
+       "name": "Conferences / workshops / FDPs attended - duration above 1 week",
+       "level": "COMP",
+       "input": "count",
+       "factor": 20,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.3.4 (20 pts each)",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "20",
+       "children": []
+      },
+      {
+       "id": "5.2b",
+       "name": "Conferences / workshops / FDPs attended - less than 1 week",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.3.5 (10 pts each)",
+       "sample": [
+        2,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      },
+      {
+       "id": "5.2c",
+       "name": "Invited lectures / presentations - reputed international agencies",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.3.6 (10 pts each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      },
+      {
+       "id": "5.2d",
+       "name": "Invited lectures / presentations - reputed national agencies",
+       "level": "COMP",
+       "input": "count",
+       "factor": 5,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.3.7 (5 pts each)",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "5",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "5.3",
+     "name": "Case writing, books & chapters, consultancy & applied projects",
+     "level": "KPI",
+     "doc": "Contribution to case writing, book chapters, consultancy, or applied projects",
+     "definition": "Applied scholarship: books, chapters, teaching cases and revenue-earning consultancy / training.",
+     "measure": "Sum of points (legacy 2.2 books, legacy 4.1 revenue table, new case points); full score at 100 points",
+     "unit": "Points",
+     "input": "none",
+     "target": "100 points",
+     "method": "points",
+     "p100": 100,
+     "weight": 25,
+     "evidence": "Book / chapter with ISBN; case registration (Case Centre / Ivey / HBP); consultancy agreement & accounts receipt.",
+     "capture": "Faculty self-entry + Accounts",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "2.2 Books / Chapters (20% of Research) + 4.1 Consultancy, Training, Sponsored Projects (50% of Sec. 4)",
+     "children": [
+      {
+       "id": "5.3a",
+       "name": "Books - international publishers with peer review (sole author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 50,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.1 sole author (50)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "50",
+       "children": []
+      },
+      {
+       "id": "5.3b",
+       "name": "Books - international publishers with peer review (co-author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.1 other (10)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      },
+      {
+       "id": "5.3c",
+       "name": "Books - national publishers / State or Central Govt, ISBN (sole author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 25,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.2 sole author (25)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "25",
+       "children": []
+      },
+      {
+       "id": "5.3d",
+       "name": "Books - national publishers / State or Central Govt, ISBN (co-author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 5,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.2 other (5)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "5",
+       "children": []
+      },
+      {
+       "id": "5.3e",
+       "name": "Subject books - local publishers with ISBN (sole author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 15,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.3 sole author (15)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "15",
+       "children": []
+      },
+      {
+       "id": "5.3f",
+       "name": "Subject books - local publishers with ISBN (co-author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 3,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.3 other (3)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "3",
+       "children": []
+      },
+      {
+       "id": "5.3g",
+       "name": "Chapters in edited volumes - international publishers (sole author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.4 sole author (10)",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      },
+      {
+       "id": "5.3h",
+       "name": "Chapters in edited volumes - international publishers (co-author)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 5,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.2.4 other (0 - revised to 5)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "0",
+       "children": []
+      },
+      {
+       "id": "5.3i",
+       "name": "Teaching cases registered with international case repositories",
+       "level": "COMP",
+       "input": "count",
+       "factor": 40,
+       "cap": null,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      },
+      {
+       "id": "5.3j",
+       "name": "Teaching cases published in national / institutional case collections",
+       "level": "COMP",
+       "input": "count",
+       "factor": 15,
+       "cap": null,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      },
+      {
+       "id": "5.3k",
+       "name": "Consultancy / training / sponsored-project revenue to institution (Rs.)",
+       "level": "COMP",
+       "input": "amount",
+       "factor": null,
+       "cap": null,
+       "lookup": "Legacy_Revenue",
+       "legacy": "4.1 (verbatim revenue VLOOKUP)",
+       "sample": [
+        45000,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Rs.",
+       "legacy_value": "0-100 pts table",
+       "children": []
+      },
+      {
+       "id": "5.3l",
+       "name": "Applied / industry projects completed (non-revenue)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": 30,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "5.4",
+     "name": "Industry-linked research, research cell & IP",
+     "level": "KPI",
+     "doc": "Initiation/participation in industry-linked research or institutional research cells",
+     "definition": "Research with industry partners, grant seeking, research-cell leadership and intellectual property.",
+     "measure": "Sum of points; full score at 50 points",
+     "unit": "Points",
+     "input": "none",
+     "target": "50 points",
+     "method": "points",
+     "p100": 50,
+     "weight": 15,
+     "evidence": "MoU / project sanction letter; grant proposal acknowledgement; research-cell minutes; patent filing / grant certificate.",
+     "capture": "Research cell",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "4.2 No. of Patents registered (10 pts each; 25% of Sec. 4)",
+     "children": [
+      {
+       "id": "5.4a",
+       "name": "Industry-sponsored / collaborative research projects (PI / Co-PI)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 30,
+       "cap": null,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      },
+      {
+       "id": "5.4b",
+       "name": "Research grant proposals submitted to funding agencies",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": 30,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      },
+      {
+       "id": "5.4c",
+       "name": "Research-cell initiatives led (seminar series, working papers, data labs)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": 30,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      },
+      {
+       "id": "5.4d",
+       "name": "Patents filed / published",
+       "level": "COMP",
+       "input": "count",
+       "factor": 20,
+       "cap": null,
+       "lookup": null,
+       "legacy": "4.2 (10 pts per patent - rebalanced)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      },
+      {
+       "id": "5.4e",
+       "name": "Patents granted / registered",
+       "level": "COMP",
+       "input": "count",
+       "factor": 50,
+       "cap": null,
+       "lookup": null,
+       "legacy": "4.2 (10 pts per patent - rebalanced)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "5.5",
+     "name": "Doctoral qualification & research supervision",
+     "level": "KPI",
+     "doc": "(Legacy section retained) PhD Completion / Research Guidance",
+     "definition": "Faculty's own doctoral progress and supervision of research scholars.",
+     "measure": "Sum of legacy 2.5 points; full score at 100 points",
+     "unit": "Points",
+     "input": "none",
+     "target": "100 points",
+     "method": "points",
+     "p100": 100,
+     "weight": 10,
+     "evidence": "PhD award notification / thesis submission receipt; university guideship letter; scholar list.",
+     "capture": "Faculty self-entry + University records",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "2.5 PhD Completion / Research Guidance (10% of Research)",
+     "children": [
+      {
+       "id": "5.5a",
+       "name": "PhD degree awarded to faculty during review period",
+       "level": "COMP",
+       "input": "yesno",
+       "factor": 100,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.5.1 (100)",
+       "sample": [
+        "No",
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Yes / No",
+       "legacy_value": "100",
+       "children": []
+      },
+      {
+       "id": "5.5b",
+       "name": "PhD thesis submitted by faculty during review period",
+       "level": "COMP",
+       "input": "yesno",
+       "factor": 50,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.5.2 (50)",
+       "sample": [
+        "Yes",
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Yes / No",
+       "legacy_value": "50",
+       "children": []
+      },
+      {
+       "id": "5.5c",
+       "name": "Research scholars awarded PhD under guidance",
+       "level": "COMP",
+       "input": "count",
+       "factor": 50,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.5.3 (50 each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "50",
+       "children": []
+      },
+      {
+       "id": "5.5d",
+       "name": "Research scholars who submitted thesis under guidance",
+       "level": "COMP",
+       "input": "count",
+       "factor": 25,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.5.4 (25 each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "25",
+       "children": []
+      },
+      {
+       "id": "5.5e",
+       "name": "Research scholars under guidance (max 2)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 20,
+       "cap": 40,
+       "lookup": null,
+       "legacy": "2.5.5 (20 each, max 2 scholars)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": 2,
+       "unit": "Count",
+       "legacy_value": "20, max 2",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KRA6",
+   "no": 6,
+   "short": "Institutional",
+   "name": "Institutional & Departmental Responsibilities",
+   "focus": "Supporting Deputy Director’s academic operations and overall governance.",
+   "intent": "Captures committee / club / LOT work, events, admissions, outreach, placement support, accreditation and special assignments from the Director.",
+   "sources": "Committee minutes, LOT reports, event reports, admission office, IQAC, Director's assignment register.",
+   "color": "#008300",
+   "kpis": [
+    {
+     "id": "6.1",
+     "name": "Committees, clubs & LOT responsibilities",
+     "level": "KPI",
+     "doc": "Execution of assigned committees /club/LOT responsibilities (activity completion rate) Number of activities and tangible benefits to LOT/club members",
+     "definition": "Delivery of the annual plan of assigned committees / clubs / Lead Operating Team.",
+     "measure": "Weighted average of 6.1.1 - 6.1.3",
+     "unit": "Score",
+     "input": "none",
+     "target": "See sub-KPIs",
+     "method": "wavg",
+     "weight": 30,
+     "evidence": "See sub-KPIs.",
+     "capture": "Committee / LOT reports",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "3.4 Performance in LOT (20%) + 3.5 Clubs, Professional Memberships, Alumni (10%)",
+     "children": [
+      {
+       "id": "6.1.1",
+       "name": "Activity completion rate of assigned committees / clubs / LOT",
+       "level": "SUB",
+       "doc": "(activity completion rate)",
+       "definition": "Planned activities completed vs the approved annual plan.",
+       "measure": "Activities completed / activities planned",
+       "unit": "%",
+       "input": "pct",
+       "target": "100%",
+       "method": "band",
+       "table": "Band_Compliance",
+       "weight": 40,
+       "evidence": "Annual activity plan and completion report.",
+       "capture": "Committee reports",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0.9,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "6.1.2",
+       "name": "Quality of contribution in Lead Operating Team (LOT)",
+       "level": "SUB",
+       "doc": "LOT responsibilities - tangible benefits to LOT members",
+       "definition": "Ownership, initiative and tangible outcomes delivered in the LOT.",
+       "measure": "Rubric rating",
+       "unit": "Rating",
+       "input": "rating",
+       "target": "Successfully Meets or above",
+       "method": "rating",
+       "weight": 30,
+       "rubric": [
+        "Led LOT initiatives with measurable institutional impact; mentors other members.",
+        "Owned and delivered all assigned LOT tasks with visible outcomes.",
+        "Completed assigned LOT tasks on time.",
+        "Partial completion; needed frequent follow-up.",
+        "Did not deliver assigned LOT tasks."
+       ],
+       "evidence": "LOT minutes; task tracker; outcome report.",
+       "capture": "LOT lead / Dy Director",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "3.4 Performance in Lead Operating Team (Excellent..Below Average = 100..0)",
+       "sample": [
+        "Exceeds Expectations",
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "6.1.3",
+       "name": "Clubs, professional memberships & alumni roles",
+       "level": "SUB",
+       "doc": "Number of activities and tangible benefits to club members",
+       "definition": "Activities run as club coordinator / professional-body or alumni official and benefits to members.",
+       "measure": "Rubric rating",
+       "unit": "Rating",
+       "input": "rating",
+       "target": "Successfully Meets or above",
+       "method": "rating",
+       "weight": 30,
+       "rubric": [
+        ">= 6 activities with tangible member benefits (certifications, competitions won, industry access).",
+        "4-5 activities with clear member benefits.",
+        "2-3 activities conducted as planned.",
+        "1 activity, limited benefit to members.",
+        "No activity conducted."
+       ],
+       "evidence": "Club activity reports; membership certificates; alumni event reports.",
+       "capture": "Club / alumni cell",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "3.5 Performance in Clubs, Professional Memberships, Alumni as officials",
+       "sample": [
+        "Successfully Meets",
+        null,
+        null
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "6.2",
+     "name": "Organising academic events, seminars, FDPs & industry talks",
+     "level": "KPI",
+     "doc": "Organizing/coordinating academic events, seminars, FDPs, industrial talks (contribution of the mentor group - lead role or supportive role)",
+     "definition": "Conceiving, securing sponsorship for and running academic events, with lead / support role recognised.",
+     "measure": "Sum of points (legacy 2.4 + new lead/support points); full score at 80 points",
+     "unit": "Points",
+     "input": "none",
+     "target": "80 points",
+     "method": "points",
+     "p100": 80,
+     "weight": 20,
+     "evidence": "Event brochure, sanction / sponsorship letter, attendance, event report.",
+     "capture": "Faculty self-entry + Event register",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "2.4 Organizing International / National Conferences, Seminars, Workshops (20% of Research)",
+     "children": [
+      {
+       "id": "6.2a",
+       "name": "Sponsored international / national conferences organised",
+       "level": "COMP",
+       "input": "count",
+       "factor": 50,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.4.1 (50 each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "50",
+       "children": []
+      },
+      {
+       "id": "6.2b",
+       "name": "International / national conferences organised",
+       "level": "COMP",
+       "input": "count",
+       "factor": 40,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.4.2 (40 each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "40",
+       "children": []
+      },
+      {
+       "id": "6.2c",
+       "name": "FDP / training / knowledge-transfer sessions for in-house faculty organised",
+       "level": "COMP",
+       "input": "count",
+       "factor": 30,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.4.3 (30 each)",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "30",
+       "children": []
+      },
+      {
+       "id": "6.2d",
+       "name": "Proposals submitted for sponsorship of international / national conferences",
+       "level": "COMP",
+       "input": "count",
+       "factor": 20,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.4.4 (20 each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "20",
+       "children": []
+      },
+      {
+       "id": "6.2e",
+       "name": "Proposals submitted for international / national FDPs / MDPs",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": null,
+       "lookup": null,
+       "legacy": "2.4.5 (10 each)",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "10",
+       "children": []
+      },
+      {
+       "id": "6.2f",
+       "name": "Seminars / industry talks / guest lectures coordinated - lead role",
+       "level": "COMP",
+       "input": "count",
+       "factor": 10,
+       "cap": 40,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        2,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      },
+      {
+       "id": "6.2g",
+       "name": "Seminars / industry talks / guest lectures coordinated - supportive role",
+       "level": "COMP",
+       "input": "count",
+       "factor": 5,
+       "cap": 20,
+       "lookup": null,
+       "legacy": "New",
+       "sample": [
+        2,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "-",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "6.3",
+     "name": "Admissions, outreach & placement support",
+     "level": "KPI",
+     "doc": "Contribution to admissions- (No of admissions), outreach (details of the prog conducted), and placement support activities",
+     "definition": "Contribution to the institution's intake and placement engine.",
+     "measure": "Weighted average of 6.3.1 - 6.3.3",
+     "unit": "Score",
+     "input": "none",
+     "target": "See sub-KPIs",
+     "method": "wavg",
+     "weight": 20,
+     "evidence": "See sub-KPIs.",
+     "capture": "Admissions office / Placement cell",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "3.2 Contribution to Student Admission (20% of Institutional Development)",
+     "children": [
+      {
+       "id": "6.3.1",
+       "name": "Admissions - references converted by mentor group",
+       "level": "SUB",
+       "doc": "Contribution to admissions- (No of admissions)",
+       "definition": "Candidate references from the faculty / mentor group converted to confirmed admissions.",
+       "measure": "Number of confirmed admissions",
+       "unit": "Count",
+       "input": "count",
+       "target": "10+",
+       "method": "band",
+       "table": "Legacy_Admissions",
+       "weight": 50,
+       "rubric": [
+        ">= 20 admissions",
+        "15-19 admissions",
+        "10-14 admissions",
+        "5-9 admissions",
+        "1-4 admissions (20 pts); 0 admissions (0)"
+       ],
+       "evidence": "Admission office conversion report.",
+       "capture": "Admissions office (auto)",
+       "frequency": "Annual",
+       "entered_by": "System",
+       "validated_by": "Deputy Director",
+       "legacy": "3.2.1 No. of references converted to confirmed admission by the Mentor Group (verbatim table)",
+       "sample": [
+        7,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "6.3.2",
+       "name": "Outreach programmes conducted",
+       "level": "SUB",
+       "doc": "outreach (details of the prog conducted)",
+       "definition": "School / college / corporate outreach programmes conducted for brand and admissions.",
+       "measure": "Number of outreach programmes (details in evidence)",
+       "unit": "Count",
+       "input": "count",
+       "target": "3+",
+       "method": "band",
+       "table": "Band_Activity",
+       "weight": 25,
+       "evidence": "Programme report with date, venue, audience, leads generated.",
+       "capture": "Admissions office",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        3,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "6.3.3",
+       "name": "Placement support activities",
+       "level": "SUB",
+       "doc": "placement support activities",
+       "definition": "Corporate connects, recruiter leads, mock interviews, CV clinics supporting placements.",
+       "measure": "Number of placement-support activities",
+       "unit": "Count",
+       "input": "count",
+       "target": "3+",
+       "method": "band",
+       "table": "Band_Activity",
+       "weight": 25,
+       "evidence": "Placement cell confirmation.",
+       "capture": "Placement cell",
+       "frequency": "Annual",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        2,
+        null,
+        null
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "6.4",
+     "name": "Accreditation, NAAC / NBA / IQAC / NIRF documentation",
+     "level": "KPI",
+     "doc": "Participation in accreditation, NAAC/NBA/IQAC documentation as assigned (Criteria Champion or support role)",
+     "definition": "Quality and timeliness of accreditation, ranking and B-school survey work as Criteria Champion or support.",
+     "measure": "Rubric rating (role-sensitive)",
+     "unit": "Rating",
+     "input": "rating",
+     "target": "Successfully Meets or above",
+     "method": "rating",
+     "weight": 15,
+     "rubric": [
+      "Criteria Champion: criterion file complete, audit-ready, zero observations; drives team.",
+      "Champion with minor observations, or Support role with outstanding, early delivery.",
+      "Assigned documentation complete and on time.",
+      "Documentation delayed or incomplete; needed rework.",
+      "Assigned documentation not delivered."
+     ],
+     "evidence": "IQAC assignment letter; criterion file; peer-review / audit observations.",
+     "capture": "IQAC",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "3.3 Contribution in Accreditation, NIRF ranking & B-School Surveys (Excellent..Below Average)",
+     "sample": [
+      "Exceeds Expectations",
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "6.5",
+     "name": "Special assignments entrusted by the Director",
+     "level": "KPI",
+     "doc": "(Legacy section retained) Special Assignments Undertaken during the period",
+     "definition": "Ad-hoc institutional assignments, each rated by the Director on EE / SME / PME / DME.",
+     "measure": "Rating points (EE=3, SME=2, PME=1, DME=0) converted with the legacy scoring key",
+     "unit": "Points",
+     "input": "none",
+     "target": "2 EE (6 pts) = 100",
+     "method": "points_lookup",
+     "table": "Legacy_SpecialKey",
+     "weight": 15,
+     "evidence": "Assignment order and completion note.",
+     "capture": "Director's assignment register",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Director",
+     "legacy": "4.3 Special Assignments (25% of Sec. 4; up to 6 assignments; scoring key)",
+     "children": [
+      {
+       "id": "6.5a",
+       "name": "Assignments rated Exceeds Expectations (EE)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 3,
+       "cap": null,
+       "lookup": null,
+       "legacy": "4.3 EE = 3",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "3",
+       "children": []
+      },
+      {
+       "id": "6.5b",
+       "name": "Assignments rated Successfully Meets (SME)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 2,
+       "cap": null,
+       "lookup": null,
+       "legacy": "4.3 SME = 2",
+       "sample": [
+        1,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "2",
+       "children": []
+      },
+      {
+       "id": "6.5c",
+       "name": "Assignments rated Partially Meets (PME)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 1,
+       "cap": null,
+       "lookup": null,
+       "legacy": "4.3 PME = 1",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "1",
+       "children": []
+      },
+      {
+       "id": "6.5d",
+       "name": "Assignments rated Does Not Meet (DME)",
+       "level": "COMP",
+       "input": "count",
+       "factor": 0,
+       "cap": null,
+       "lookup": null,
+       "legacy": "4.3 DME = 0",
+       "sample": [
+        0,
+        null,
+        null
+       ],
+       "max_count": null,
+       "unit": "Count",
+       "legacy_value": "0",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KRA7",
+   "no": 7,
+   "short": "Projects & SIP",
+   "name": "Projects, Internships, SIP/CP Support & Evaluation",
+   "focus": "Supports Deputy Director’s coordination of internships and projects.",
+   "intent": "Ensures every guided student has an approved plan and external guide, is monitored, fairly evaluated and completes the internship / project well.",
+   "sources": "Project register, SIP/CP monitoring reports, viva records, industry-mentor evaluations.",
+   "color": "#4A3AA7",
+   "kpis": [
+    {
+     "id": "7.1",
+     "name": "Timely enablement of projects - external guides & plans",
+     "level": "KPI",
+     "doc": "Timely enablement of projects external guides and project plans",
+     "definition": "Guided students have an approved project plan and confirmed external guide by the deadline.",
+     "measure": "Students with approved plan & guide by deadline / students guided",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 25,
+     "evidence": "Project register; guide confirmation emails.",
+     "capture": "Project register",
+     "frequency": "Per project cycle",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      1.0,
+      0.95,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "7.2",
+     "name": "Quality of project evaluation, viva & documentation",
+     "level": "KPI",
+     "doc": "Quality of project evaluation, viva, and documentation",
+     "definition": "Fair, rubric-based project evaluation and viva with complete documentation.",
+     "measure": "Rubric rating",
+     "unit": "Rating",
+     "input": "rating",
+     "target": "Successfully Meets or above",
+     "method": "rating",
+     "weight": 25,
+     "rubric": [
+      "Rubric-based evaluation with external validation; exemplary records; plagiarism checks for all.",
+      "Rubric-based evaluation; complete records and plagiarism reports.",
+      "Evaluation completed with standard documentation.",
+      "Gaps in rubric use or documentation.",
+      "Evaluation / viva records missing or disputed."
+     ],
+     "evidence": "Evaluation rubric sheets; viva records; plagiarism reports.",
+     "capture": "Dy Director review",
+     "frequency": "Per project cycle",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      "Exceeds Expectations",
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "7.3",
+     "name": "SIP / CP monitoring & review reports",
+     "level": "KPI",
+     "doc": "Completion of SIP/CP monitoring and review reports (100%)",
+     "definition": "Monitoring and review reports for every Summer Internship / Corporate Project student filed on time.",
+     "measure": "Reports completed / reports due",
+     "unit": "%",
+     "input": "pct",
+     "target": "100%",
+     "method": "band",
+     "table": "Band_Compliance",
+     "weight": 25,
+     "evidence": "SIP/CP monitoring log.",
+     "capture": "SIP/CP module",
+     "frequency": "Per SIP/CP cycle",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "New KPI",
+     "sample": [
+      1.0,
+      null,
+      null
+     ],
+     "children": []
+    },
+    {
+     "id": "7.4",
+     "name": "Student internship performance & completion",
+     "level": "KPI",
+     "doc": "Student internship performance and completion rate",
+     "definition": "Outcome of guided internships: completion and industry-mentor rating.",
+     "measure": "Weighted average of 7.4.1 - 7.4.2",
+     "unit": "Score",
+     "input": "none",
+     "target": "See sub-KPIs",
+     "method": "wavg",
+     "weight": 25,
+     "evidence": "See sub-KPIs.",
+     "capture": "SIP/CP module",
+     "frequency": "Per SIP/CP cycle",
+     "entered_by": "Faculty",
+     "validated_by": "Deputy Director",
+     "legacy": "Related to legacy 3.1.1 internship %",
+     "children": [
+      {
+       "id": "7.4.1",
+       "name": "Internship completion rate of guided students",
+       "level": "SUB",
+       "doc": "completion rate",
+       "definition": "Guided students completing internship with certificate.",
+       "measure": "Students completed / students guided",
+       "unit": "%",
+       "input": "pct",
+       "target": "100%",
+       "method": "band",
+       "table": "Band_Compliance",
+       "weight": 50,
+       "evidence": "Internship completion certificates.",
+       "capture": "SIP/CP module",
+       "frequency": "Per SIP/CP cycle",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0.98,
+        null,
+        null
+       ],
+       "children": []
+      },
+      {
+       "id": "7.4.2",
+       "name": "Average industry-mentor evaluation of guided students",
+       "level": "SUB",
+       "doc": "Student internship performance",
+       "definition": "Average score given by industry mentors to guided students.",
+       "measure": "Average industry-mentor score (0-100%)",
+       "unit": "%",
+       "input": "pct",
+       "target": ">= 75%",
+       "method": "band",
+       "table": "Band_Audit",
+       "weight": 50,
+       "evidence": "Industry mentor evaluation forms.",
+       "capture": "SIP/CP module",
+       "frequency": "Per SIP/CP cycle",
+       "entered_by": "Faculty",
+       "validated_by": "Deputy Director",
+       "legacy": "New KPI",
+       "sample": [
+        0.82,
+        null,
+        null
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "MOA",
+   "no": 8,
+   "short": "Mgmt Assessment",
+   "name": "Management Overall Assessment",
+   "focus": "Holistic assessment by top management (retained from legacy Section 5).",
+   "intent": "Lets the Director recognise attitude, values, collegiality and institutional citizenship that metrics miss.",
+   "sources": "Director's holistic judgement, Deputy Director recommendation.",
+   "color": "#E34948",
+   "kpis": [
+    {
+     "id": "8.1",
+     "name": "Overall assessment by top management",
+     "level": "KPI",
+     "doc": "(Legacy section retained) 5.1 Overall Performance Assessment",
+     "definition": "Holistic rating of professionalism, values, teamwork, initiative and alignment with LEAD's mission.",
+     "measure": "Director rating on the 5-level rubric (faculty self-rates and Dy Director recommends)",
+     "unit": "Rating",
+     "input": "rating",
+     "target": "Successfully Meets or above",
+     "method": "rating",
+     "weight": 100,
+     "rubric": [
+      "Exemplary institutional citizen; champions LEAD's mission beyond role.",
+      "Highly committed; positive influence on peers and students.",
+      "Reliable, collegial and aligned with institutional values.",
+      "Needs improvement in attitude, teamwork or initiative.",
+      "Conduct or commitment concerns recorded."
+     ],
+     "evidence": "Not required (management judgement); Dy Director note.",
+     "capture": "Director",
+     "frequency": "Annual",
+     "entered_by": "Faculty",
+     "validated_by": "Director",
+     "legacy": "5.1 Overall Assessment by Top Management (multiplication factor 10)",
+     "sample": [
+      "Exceeds Expectations",
+      "Exceeds Expectations",
+      "Exceeds Expectations"
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "designationWeights": {
+  "KRA1": [
+   20,
+   15,
+   15,
+   40
+  ],
+  "KRA2": [
+   10,
+   8,
+   8,
+   15
+  ],
+  "KRA3": [
+   10,
+   7,
+   7,
+   20
+  ],
+  "KRA4": [
+   15,
+   12,
+   12,
+   0
+  ],
+  "KRA5": [
+   15,
+   25,
+   25,
+   10
+  ],
+  "KRA6": [
+   15,
+   18,
+   18,
+   0
+  ],
+  "KRA7": [
+   10,
+   10,
+   10,
+   5
+  ],
+  "MOA": [
+   5,
+   5,
+   5,
+   10
+  ]
+ },
+ "weightRationale": [
+  "Assistant Professors carry the heaviest teaching, mentoring and project-guidance load, so KRAs 1-4 and 7 hold 70% of their FPI.",
+  "Associate Professors and Professors are expected to lead scholarship and institution building: KRA 5 rises to 25% and KRA 6 to 18%.",
+  "Visiting Faculty are assessed on what they control - classroom delivery, curriculum and evaluation (75%) - plus research visibility and project guidance; mentoring and institutional KRAs are set to 0%.",
+  "Management Overall Assessment keeps the legacy top-management voice (legacy 5%; visiting 20% reduced to 10% because the legacy visiting column summed to 120%).",
+  "Legacy Consultancy (15% / 20%) is folded into KRA 5 (consultancy revenue, patents) and KRA 6 (special assignments), as agreed.",
+  "All weights are editable on this sheet; the scorecard, dashboard and checks recalculate automatically."
+ ],
+ "sample": {
+  "profile": {
+   "Academic Year": "2025-26",
+   "Name of Faculty": "Dr. Sample Faculty (Illustrative)",
+   "Employee ID": "LEAD-F-000",
+   "Designation": "Assistant Professor",
+   "Department / Area": "Marketing",
+   "Date of Joining": "2021-06-01",
+   "Highest Qualification": "MBA, UGC-NET (PhD pursuing)",
+   "Qualification acquired during the year": "PhD thesis submitted (Mar 2026)",
+   "Mentor Group": "MBA 2025-27 - Group M4 (20 mentees)",
+   "Reporting Manager (Dy Director)": "Deputy Director (Academics)",
+   "Review Period From": "2025-06-01",
+   "Review Period To": "2026-05-31"
+  },
+  "courses": [
+   {
+    "course": "Marketing Management",
+    "batch": "2025-27",
+    "semester": "Semester I",
+    "teiF": 0.86,
+    "teiDD": 0.84,
+    "passF": 0.96,
+    "passDD": null
+   },
+   {
+    "course": "Business Research Methods",
+    "batch": "2025-27",
+    "semester": "Semester II",
+    "teiF": 0.78,
+    "teiDD": 0.76,
+    "passF": 0.9,
+    "passDD": 0.88
+   },
+   {
+    "course": "Consumer Behaviour",
+    "batch": "2024-26",
+    "semester": "Semester III",
+    "teiF": 0.82,
+    "teiDD": null,
+    "passF": 0.92,
+    "passDD": null
+   },
+   {
+    "course": "Digital Marketing",
+    "batch": "2024-26",
+    "semester": "Semester III",
+    "teiF": 0.88,
+    "teiDD": null,
+    "passF": 0.94,
+    "passDD": null
+   }
+  ],
+  "workflow": [
+   {
+    "stage": "Faculty Submission",
+    "status": "Submitted",
+    "date": "2026-04-14",
+    "by": "Dr. Sample Faculty"
+   },
+   {
+    "stage": "Deputy Director Validation",
+    "status": "Validated",
+    "date": "2026-04-28",
+    "by": "Deputy Director"
+   },
+   {
+    "stage": "Director Final Approval",
+    "status": "Approved",
+    "date": "2026-05-12",
+    "by": "Director"
+   }
+  ]
+ },
+ "lists": {
+  "AcademicYear": [
+   "2025-26",
+   "2026-27",
+   "2027-28",
+   "2028-29",
+   "2029-30"
+  ],
+  "Batch": [
+   "2024-26",
+   "2025-27",
+   "2026-28",
+   "2027-29",
+   "2028-30"
+  ],
+  "Semester": [
+   "Semester I",
+   "Semester II",
+   "Semester III",
+   "Semester IV"
+  ],
+  "Department": [
+   "Marketing",
+   "Finance",
+   "Human Resources",
+   "Operations & Business Analytics",
+   "Strategy & General Management",
+   "Economics",
+   "Business Communication",
+   "Information Systems"
+  ],
+  "Qualification": [
+   "PhD",
+   "PhD (pursuing)",
+   "M.Phil",
+   "MBA / PGDM",
+   "MBA, UGC-NET",
+   "MBA, UGC-NET (PhD pursuing)",
+   "Other Postgraduate"
+  ],
+  "FacultyStatus": [
+   "Draft",
+   "Submitted"
+  ],
+  "DyDirStatus": [
+   "Pending",
+   "Validated",
+   "Returned for Revision"
+  ],
+  "DirectorStatus": [
+   "Pending",
+   "Approved",
+   "Returned"
+  ],
+  "YesNo": [
+   "Yes",
+   "No"
+  ],
+  "View": [
+   "Director Final",
+   "Dy Director Validated",
+   "Faculty Self"
+  ]
+ }
+}

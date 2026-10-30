@@ -1,26 +1,124 @@
 @import "tailwindcss";
 
+/*
+  LEAD Appraisal — visual system
+  Soft grey-blue canvas, white rounded cards, one confident brand blue (from the LEAD logo),
+  the multi-colour KRA palette for data, pill chips for state, big friendly numerals.
+*/
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --canvas: #eef1f7;
+  --card: #ffffff;
+  --ink: #111a2e;
+  --ink-2: #3b4660;
+  --muted: #7a8499;
+  --line: #e6e9f1;
+  --line-2: #f1f3f8;
+  --brand: #1f5bd8;
+  --brand-2: #4b7cf0;
+  --brand-soft: #e9effd;
+  --violet: #7c5cfc;
+  --violet-soft: #f0ecff;
+  --mint: #22c79a;
+  --mint-soft: #ddf7ee;
+  --sun: #ffd54a;
+  --sun-soft: #fff6d6;
+  --coral: #ff7a59;
+  --coral-soft: #ffece6;
+  --danger: #e5484d;
+  --danger-soft: #fdecec;
+  --ok: #12a171;
+  --ok-soft: #e1f6ee;
+  --warn: #e69a00;
+  --warn-soft: #fff3d9;
+  --night: #121a2c;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-canvas: var(--canvas);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-brand-soft: var(--brand-soft);
+  --color-violet: var(--violet);
+  --color-violet-soft: var(--violet-soft);
+  --color-mint: var(--mint);
+  --color-mint-soft: var(--mint-soft);
+  --color-sun: var(--sun);
+  --color-sun-soft: var(--sun-soft);
+  --color-coral: var(--coral);
+  --color-coral-soft: var(--coral-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-night: var(--night);
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --radius-card: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html,
+body {
+  background: var(--canvas);
+  color: var(--ink);
+}
+body {
+  font-family: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  box-shadow: 0 1px 2px rgba(17, 26, 46, 0.03), 0 6px 24px -12px rgba(17, 26, 46, 0.08);
+}
+
+.hatch {
+  background-image: repeating-linear-gradient(135deg, currentColor 0 6px, transparent 6px 11px);
+}
+
+.scroll-thin::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #d5dae6;
+  border-radius: 8px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(6px);
+    opacity: 0.4;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 0.35s ease-out both;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 0.4;
 }
